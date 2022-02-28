@@ -70,16 +70,31 @@
       </div>
     </nav>
   </div>
-
-  <div class="container d-flex">
     <div class="btn-group" role="group" aria-label="Basic outlined example">
       <button type="button" class="btn btn-outline-primary m-5">Nous localiser</button>
     </div>
     <button class="btn btn-primary m-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
       aria-controls="offcanvasTop">Nous écrire</button>
     <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <h3><marquee behavior="alternate" direction=""><u> Contactez-nous </u></marquee></h3>
       <div class="offcanvas-header">
-        <h5 id="offcanvasTopLabel">Nous laisser un mail</h5>
+        
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="entre votre nom">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="entre votre nom">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">écrire votre message ici</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="btn">
+          <button style="color: blue;">Envoyer le formulaire</button>
+          <button style="color: red;">Annuler</button>
+      </div>
         <a href="css/"></a>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
